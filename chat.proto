@@ -1,5 +1,9 @@
 syntax = "proto3";
 
+option go_package = "github.com/MetalMari/chat_go/chat_protos/chat";
+
+package chat;
+
 // The chat service for users messaging. 
 service Chat {
     // Gets a list of users. 
